@@ -1,0 +1,10 @@
+public class Program
+{
+public static void Main()
+{
+Person person1 = new Person("Angel", "Locsin");
+person1.BirthYear = 30;
+Console.WriteLine("Hello " + person1.GetFullName() );
+Console.WriteLine("You are " + person1.GetAge() + “ years old.”);
+}
+}
